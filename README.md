@@ -81,7 +81,7 @@ Plug 'RishabhRD/nvim-qf'
 
 You can use this command to get help on vim-qf:
 
-    :help vim-qf
+    :help nvim-qf
 
 ## TODO
 
