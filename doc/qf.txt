@@ -173,7 +173,7 @@ Scope: global                                                                ~
 Default: none                                                                ~
 
 Toggle the quickfix window.
-Uses |:cwindow| and |:cclose| under the hood.
+Uses |:copen| and |:cclose| under the hood.
 
 Example: >
 
@@ -185,7 +185,7 @@ Scope: global                                                                ~
 Default: none                                                                ~
 
 Toggle the quickfix window and do not move if toggled open.
-Uses |:cwindow| and |:cclose| under the hood.
+Uses |:copen| and |:cclose| under the hood.
 
 Example: >
 
@@ -571,7 +571,7 @@ These named lists share the same space, so a location list can be converted to
 a quickfix list: >
 
     :SaveList current_loclist
-    :cwindow
+    :copen
     :LoadList current_loclist
 <
 Concatenating multiple location lists to use as a quickfix list: >
@@ -580,7 +580,7 @@ Concatenating multiple location lists to use as a quickfix list: >
 
 < in each location list you want to use, then >
 
-    :cwindow
+    :copen
     :LoadList current_loclist
 <
 Composing a list of files to attach a license to: >
@@ -594,7 +594,7 @@ Composing a list of files to attach a license to: >
 
 < and so on... >
 
-    :cwindow
+    :copen
     :LoadList floss_files
     :cdo 0r /path/to/license
 <

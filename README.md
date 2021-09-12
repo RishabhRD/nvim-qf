@@ -1,6 +1,19 @@
-# vim-qf
+# nvim-qf
 
-**vim-qf**—short for *vim-quickfix*—is a growing collection of settings, commands and mappings put together to make working with the location list/window and the quickfix list/window smoother.
+**nvim-qf**—short for *nvim-quickfix*—is a growing collection of settings, commands and mappings put together to make working with the location list/window and the quickfix list/window smoother.
+
+## What it is not
+
+- It is not a collection of vim-qf... infact it is a fork of vim-qf
+
+- No I am not doing it in lua... (Who knows what the future would be)
+
+## Why
+
+The motivation was :cwindow and :lwindow was not working with my needs. I need
+quickfix list even if there is no error and :cwindow and :lwindow apparently
+doesn't suit this need. For example toggle-qf should work even if there is no
+error.
 
 ## Features
 
