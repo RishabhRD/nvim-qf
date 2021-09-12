@@ -35,6 +35,7 @@
 <Plug>(qf_qf_switch)	qf.txt	/*<Plug>(qf_qf_switch)*
 <Plug>(qf_qf_toggle)	qf.txt	/*<Plug>(qf_qf_toggle)*
 <Plug>(qf_qf_toggle_stay)	qf.txt	/*<Plug>(qf_qf_toggle_stay)*
+nvim-qf	qf.txt	/*nvim-qf*
 qf	qf.txt	/*qf*
 qf-acknowledgements	qf.txt	/*qf-acknowledgements*
 qf-configuration	qf.txt	/*qf-configuration*
@@ -44,4 +45,3 @@ qf-named-lists	qf.txt	/*qf-named-lists*
 qf-todo	qf.txt	/*qf-todo*
 qf-usage	qf.txt	/*qf-usage*
 qf.txt	qf.txt	/*qf.txt*
-nvim-qf	qf.txt	/*nvim-qf*
