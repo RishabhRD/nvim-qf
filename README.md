@@ -4,7 +4,7 @@
 
 ## What it is not
 
-- It is not a collection of vim-qf... infact it is a fork of vim-qf
+- It is not a rewrite of vim-qf... infact it is a fork of vim-qf
 
 - No I am not doing it in lua... (Who knows what the future would be)
 
