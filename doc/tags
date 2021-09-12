@@ -39,11 +39,9 @@ qf	qf.txt	/*qf*
 qf-acknowledgements	qf.txt	/*qf-acknowledgements*
 qf-configuration	qf.txt	/*qf-configuration*
 qf-done	qf.txt	/*qf-done*
-qf-installation	qf.txt	/*qf-installation*
 qf-intro	qf.txt	/*qf-intro*
 qf-named-lists	qf.txt	/*qf-named-lists*
-qf-releases	qf.txt	/*qf-releases*
 qf-todo	qf.txt	/*qf-todo*
 qf-usage	qf.txt	/*qf-usage*
 qf.txt	qf.txt	/*qf.txt*
-vim-qf	qf.txt	/*vim-qf*
+nvim-qf	qf.txt	/*nvim-qf*

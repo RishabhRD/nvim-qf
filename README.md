@@ -71,37 +71,11 @@ Many plugins interact with the quickfix/location list/window in ways that are mo
 
 ### Method 1
 
-Use your favorite runtimepath/plugin manager.
+Use your favorite plugin manager
 
-### Method 2
-
-If you are using Vim 8.0 or above, move this directory to:
-
-    # Unix-like systems
-    ~/.vim/pack/{whatever name you want}/start/vim-qf
-
-    # Windows
-    %userprofile%\vimfiles\pack\{whatever name you want}\start\vim-qf
-
-See `:help package`.
-
-### Method 3
-
-If you are using Vim 7.4 or below, move the files in this directory to their standard location:
-
-    # Unix-like systems
-    ~/.vim/after/ftplugin/qf.vim
-    ~/.vim/autoload/qf.vim
-    ~/.vim/autoload/qf/*.vim
-    ~/.vim/doc/qf.txt
-    ~/.vim/plugin/qf.vim
-
-    # Windows
-    %userprofile%\vimfiles\after\ftplugin\qf.vim
-    %userprofile%\vimfiles\autoload\qf.vim
-    %userprofile%\vimfiles\autoload\qf\*.vim
-    %userprofile%\vimfiles\doc\qf.txt
-    %userprofile%\vimfiles\plugin\qf.vim
+```
+Plug 'RishabhRD/nvim-qf'
+```
 
 ## Documentation
 
